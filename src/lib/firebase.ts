@@ -11,11 +11,12 @@ import {
 // ===== Firebase configuration =====
 const FIREBASE_CONFIG = {
     apiKey: "AIzaSyDjtjN29yc03BeAOeAvEsqQX23JuIMhLQg",
-    authDomain: "deploy2-ed9ce.firebaseapp.com",
-    projectId: "deploy2-ed9ce",
-    storageBucket: "deploy2-ed9ce.firebasestorage.app",
-    messagingSenderId: "405598518951",
-    appId: "1:405598518951:web:e20cc22b8aead19306e582"
+‎    authDomain: "deploy2-ed9ce.firebaseapp.com",
+‎    databaseURL: "https://deploy2-ed9ce-default-rtdb.asia-southeast1.firebasedatabase.app",
+‎    projectId: "deploy2-ed9ce",
+‎    storageBucket: "deploy2-ed9ce.firebasestorage.app",
+‎    messagingSenderId: "405598518951",
+‎    appId: "1:405598518951:web:e20cc22b8aead19306e582"
   };
 let app: FirebaseApp;
 let db: ReturnType<typeof getDatabase>;
