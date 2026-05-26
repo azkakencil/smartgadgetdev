@@ -10,15 +10,14 @@ import {
 
 // ===== Firebase configuration =====
 const FIREBASE_CONFIG = {
-  apiKey: "AIzaSyC3IrREql-1PG1DhZQZklptxITQz_wOHZM",
-  authDomain: "lunan-b6bfe.firebaseapp.com",
-  databaseURL: "https://lunan-b6bfe-default-rtdb.asia-southeast1.firebasedatabase.app",
-  projectId: "lunan-b6bfe",
-  storageBucket: "lunan-b6bfe.firebasestorage.app",
-  messagingSenderId: "705568398185",
-  appId: "1:705568398185:web:b4cc60ac49a5e718277bf8",
-};
-
+    apiKey: "AIzaSyDjtjN29yc03BeAOeAvEsqQX23JuIMhLQg",
+    authDomain: "deploy2-ed9ce.firebaseapp.com",
+    projectId: "deploy2-ed9ce",
+    storageBucket: "deploy2-ed9ce.firebasestorage.app",
+    messagingSenderId: "405598518951",
+    appId: "1:405598518951:web:e20cc22b8aead19306e582",
+    measurementId: "G-WNCHPBHJ0G"
+  };
 let app: FirebaseApp;
 let db: ReturnType<typeof getDatabase>;
 
