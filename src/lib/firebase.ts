@@ -15,8 +15,7 @@ const FIREBASE_CONFIG = {
     projectId: "deploy2-ed9ce",
     storageBucket: "deploy2-ed9ce.firebasestorage.app",
     messagingSenderId: "405598518951",
-    appId: "1:405598518951:web:e20cc22b8aead19306e582",
-    measurementId: "G-WNCHPBHJ0G"
+    appId: "1:405598518951:web:e20cc22b8aead19306e582"
   };
 let app: FirebaseApp;
 let db: ReturnType<typeof getDatabase>;
