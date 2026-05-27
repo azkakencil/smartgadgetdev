@@ -10,14 +10,14 @@ import {
 
 // ===== Firebase configuration =====
 const FIREBASE_CONFIG = {
-    apiKey: "AIzaSyDjtjN29yc03BeAOeAvEsqQX23JuIMhLQg",
-‎    authDomain: "deploy2-ed9ce.firebaseapp.com",
-‎    databaseURL: "https://deploy2-ed9ce-default-rtdb.asia-southeast1.firebasedatabase.app",
-‎    projectId: "deploy2-ed9ce",
-‎    storageBucket: "deploy2-ed9ce.firebasestorage.app",
-‎    messagingSenderId: "405598518951",
-‎    appId: "1:405598518951:web:e20cc22b8aead19306e582",
-  };
+  apiKey: "AIzaSyCzoaCJMZ3y4kEIWUVMHB6b_zWPzhvUZBc",
+  authDomain: "deploy3-595e5.firebaseapp.com", 
+  databaseURL: "https://deploy3-595e5-default-rtdb.asia-southeast1.firebasedatabase.app",
+  projectId: "deploy3-595e5", 
+  storageBucket: "deploy3-595e5.firebasestorage.app",
+  messagingSenderId: "1065686837353",
+  appId: "1:1065686837353:web:2230677da66f9d97a39af8",
+};
 let app: FirebaseApp;
 let db: ReturnType<typeof getDatabase>;
 
