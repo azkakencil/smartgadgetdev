@@ -44,7 +44,7 @@ export function tryLogin(answers: AuthAnswers, remember: boolean): { success: bo
   }
 
   // Verifikasi Lapisan 3: Nama (kholifadilmubarok)
-  if (answers.name.trim().toLowerCase() !== "kholifadilmubarok") {
+  if (answers.name.trim().toLowerCase() !== "kholifadil") {
     return { success: false, error: "Lapisan 3: Nama pengguna tidak sesuai!" };
   }
 
